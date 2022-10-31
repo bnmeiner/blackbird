@@ -6,16 +6,15 @@ mavsimPy
         1/14/2019 - RWB
 """
 import sys
-sys.path.append('/Users/bnmei/OneDrive/Desktop/Drone Control/blackbird/UAVBook_references')
-sys.path.append('/Users/bnmei/OneDrive/Desktop/Drone Control/blackbird')
+sys.path.append('..')
 import numpy as np
 import matplotlib.pyplot as plt
 
-import BLACKBIRD_Code.blackbird_params2 as PMT
-from BLACKBIRD_Code.blackbird_viewer import MavViewer
-from BLACKBIRD_Code.blackbird_dynamics_v2 import MavDynamics
-from message_types.msg_delta import MsgDelta
-from message_types.msg_state import MsgState
+import blackbird.BLACKBIRD_Code.blackbird_params2 as PMT
+from blackbird.BLACKBIRD_Code.blackbird_viewer import MavViewer
+from blackbird.BLACKBIRD_Code.blackbird_dynamics_v2 import MavDynamics
+from blackbird.UAVBook_references.message_types.msg_delta import MsgDelta
+from blackbird.UAVBook_references.message_types.msg_state import MsgState
 
 ###########################################################
 #Time Variables
