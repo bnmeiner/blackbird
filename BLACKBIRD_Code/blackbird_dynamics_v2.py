@@ -9,7 +9,7 @@ part of mavPySim
         12/20/2018 - RWB
 """
 import sys
-sys.path.append('/Users/C/Dropbox/work/blackbird')
+sys.path.append('/Users/bnmei/OneDrive/Desktop/Drone Control/blackbird')
 import numpy as np
 
 from UAVBook_references.message_types.msg_state import MsgState

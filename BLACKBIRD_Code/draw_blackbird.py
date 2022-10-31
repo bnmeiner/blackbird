@@ -5,7 +5,7 @@ mavsim_python: drawing tools
         4/15/2019 - BGM
 """
 import sys
-sys.path.append('/Users/C/Dropbox/work/blackbird/UAVBook_references')
+sys.path.append('/Users/bnmei/OneDrive/Desktop/Drone Control/blackbird/UAVBook_references')
 sys.path.append('..')
 import numpy as np
 import pyqtgraph.opengl as gl

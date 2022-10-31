@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/Users/C/Dropbox/work/blackbird')
+sys.path.append('/Users/bnmei/OneDrive/Desktop/Drone Control/blackbird')
 import numpy as np
 from UAVBook_references.tools.rotations import Euler2Quaternion
 import math
