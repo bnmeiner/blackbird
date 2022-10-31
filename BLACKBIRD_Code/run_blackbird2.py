@@ -6,8 +6,8 @@ mavsimPy
         1/14/2019 - RWB
 """
 import sys
-sys.path.append('/Users/C/Dropbox/work/blackbird/UAVBook_references')
-sys.path.append('/Users/C/Dropbox/work/blackbird')
+sys.path.append('/Users/bnmei/OneDrive/Desktop/Drone Control/blackbird/UAVBook_references')
+sys.path.append('/Users/bnmei/OneDrive/Desktop/Drone Control/blackbird')
 import numpy as np
 import matplotlib.pyplot as plt
 
