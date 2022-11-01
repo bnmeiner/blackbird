@@ -11,11 +11,11 @@ import math
 north0 = 0.  # initial north position
 east0 = 0.  # initial east position
 down0 = -100.  # initial down position
-u0 = 0.  # initial velocity along body x-axis
+u0 = 20.  # initial velocity along body x-axis
 v0 = 0.  # initial velocity along body y-axis
 w0 = 0.  # initial velocity along body z-axis
 phi0 = 0.  # initial roll angle
-theta0 = 0.  # initial pitch angle
+theta0 = 20.  # initial pitch angle
 psi0 = 0.  # initial yaw angle
 p0 = 0.  # initial roll rate
 q0 = 0.  # initial pitch rate

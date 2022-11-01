@@ -9,12 +9,14 @@ part of mavPySim
         12/20/2018 - RWB
 """
 import sys
-sys.path.append('/Users/bnmei/OneDrive/Desktop/Drone Control/blackbird')
+sys.path.append('..')
 import numpy as np
 
-from UAVBook_references.message_types.msg_state import MsgState
-import BLACKBIRD_Code.blackbird_params2 as MAV
-from UAVBook_references.tools.rotations import Quaternion2Euler, Quaternion2Rotation
+# load message types
+
+from blackbird.BLACKBIRD_Code.msg_state_blackbird import MsgState
+import blackbird.BLACKBIRD_Code.params_blackbird as MAV
+from blackbird.UAVBook_references.tools.rotations import Quaternion2Euler, Quaternion2Rotation
 
 
 class MavDynamics:

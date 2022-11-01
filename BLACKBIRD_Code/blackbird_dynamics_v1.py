@@ -10,11 +10,11 @@ part of mavsimPy
         1/14/2019 - RWB
 """
 import sys
-#sys.path.append('/Users/bnmei/OneDrive/Desktop/Drone Control/blackbird')
+sys.path.append('..')
 import numpy as np
 
 # load message types
-sys.path.append('..')
+
 from blackbird.BLACKBIRD_Code.msg_state_blackbird import MsgState
 import blackbird.BLACKBIRD_Code.params_blackbird as MAV
 from blackbird.UAVBook_references.tools.rotations import Quaternion2Euler, Quaternion2Rotation
