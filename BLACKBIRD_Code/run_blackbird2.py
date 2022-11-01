@@ -53,7 +53,7 @@ wind=np.zeros((6,1))
 
 sim_time = start_time
 while sim_time < end_time:
-    delta.from_array(np.array([0.0, 0.0, 0.0, 0.0])) #[-0.2, 0.05, 0.05, 0.5]
+    delta.from_array(np.array([.7, 0.0, 0.0, 0.5])) #[-0.2, 0.05, 0.05, 0.5]
     blackbird.update(delta.to_array(),wind)
     x.append(blackbird.true_state.north)
     alt.append(blackbird.true_state.altitude)
