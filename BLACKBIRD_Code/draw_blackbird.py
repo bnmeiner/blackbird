@@ -5,10 +5,10 @@ mavsim_python: drawing tools
         4/15/2019 - BGM
 """
 import sys
-sys.path.append('..')
+sys.path.append('.')
 import numpy as np
 import pyqtgraph.opengl as gl
-from blackbird.UAVBook_references.tools.rotations import Euler2Rotation
+from UAVBook_references.tools.rotations import Euler2Rotation
 
 
 class DrawMav:

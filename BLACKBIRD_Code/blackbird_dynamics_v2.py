@@ -9,14 +9,14 @@ part of mavPySim
         12/20/2018 - RWB
 """
 import sys
-sys.path.append('..')
+sys.path.append('.')
 import numpy as np
 
 # load message types
 
-from blackbird.BLACKBIRD_Code.msg_state_blackbird import MsgState
-import blackbird.BLACKBIRD_Code.params_blackbird as MAV
-from blackbird.UAVBook_references.tools.rotations import Quaternion2Euler, Quaternion2Rotation
+from BLACKBIRD_Code.msg_state_blackbird import MsgState
+import BLACKBIRD_Code.params_blackbird as MAV
+from UAVBook_references.tools.rotations import Quaternion2Euler, Quaternion2Rotation
 
 
 class MavDynamics:

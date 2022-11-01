@@ -7,12 +7,12 @@ mavsim_python: mav viewer (for chapter 2)
         3/31/2020 - RWB
 """
 import sys
-sys.path.append('..')
+sys.path.append('.')
 import numpy as np
 import pyqtgraph as pg
 import pyqtgraph.opengl as gl
 import pyqtgraph.Vector as Vector
-from blackbird.BLACKBIRD_Code.draw_blackbird import DrawMav
+from BLACKBIRD_Code.draw_blackbird import DrawMav
 
 
 class MavViewer():

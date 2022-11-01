@@ -1,7 +1,7 @@
 import sys
-sys.path.append('..')
+sys.path.append('.')
 import numpy as np
-from blackbird.UAVBook_references.tools.rotations import Euler2Quaternion
+from UAVBook_references.tools.rotations import Euler2Quaternion
 import math
 
 ######################################################################################

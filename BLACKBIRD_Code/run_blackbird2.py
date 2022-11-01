@@ -6,15 +6,14 @@ mavsimPy
         1/14/2019 - RWB
 """
 import sys
-sys.path.append('..')
+sys.path.append( '.' )
 import numpy as np
 import matplotlib.pyplot as plt
-
-import blackbird.BLACKBIRD_Code.blackbird_params2 as PMT
-from blackbird.BLACKBIRD_Code.blackbird_viewer import MavViewer
-from blackbird.BLACKBIRD_Code.blackbird_dynamics_v2 import MavDynamics
-from blackbird.UAVBook_references.message_types.msg_delta import MsgDelta
-from blackbird.UAVBook_references.message_types.msg_state import MsgState
+import blackbird_params2 as PMT
+from blackbird_viewer import MavViewer
+from blackbird_dynamics_v2 import MavDynamics
+from UAVBook_references.message_types.msg_delta import MsgDelta
+from UAVBook_references.message_types.msg_state import MsgState
 
 ###########################################################
 #Time Variables
@@ -70,7 +69,7 @@ while sim_time < end_time:
 VIDEO = False  # True==write video, False==don't write video
 mav_view = MavViewer()  # initialize the mav viewer
 if VIDEO is True:
-    from chap2.video_writer import VideoWriter
+    from UAVBook_references.chap2.video_writer import VideoWriter
     video = VideoWriter(video_name="chap3_video.avi",
                         bounding_box=(0, 0, 1000, 1000),
                         output_rate=ts_video)
